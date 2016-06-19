@@ -6,14 +6,14 @@
 
 in module
 ```
-import 'ptsans-npm-webfont';
+import 'opensans-npm-webfont';
 ```
 
 in style
 
 ```
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 ```
 
