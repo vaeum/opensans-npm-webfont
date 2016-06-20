@@ -1,6 +1,6 @@
 {
   "name": "opensans-npm-webfont",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OpenSans webfont package",
   "main": "style.css",
   "scripts": {

@@ -4,12 +4,13 @@
 
 ### Usage
 
-in module
+#### In module
+
 ```
 import 'opensans-npm-webfont';
 ```
 
-in style
+#### In style
 
 ```
 body {
@@ -17,5 +18,22 @@ body {
 }
 ```
 
-Webpack dependencies:
-- style-loader
+#### Webpack dependencies:
+
+- css-loader
+
+#### Without webpack
+
+```
+//css
+@import "node_modules/opensans-npm-webfont/style.css";
+
+//less
+@import "node_modules/opensans-npm-webfont/style.less";
+
+//scss
+@import "node_modules/opensans-npm-webfont/style.scss";
+
+//Stylus
+@import "node_modules/opensans-npm-webfont/style.styl"
+```
